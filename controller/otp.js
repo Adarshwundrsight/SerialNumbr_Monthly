@@ -13,7 +13,7 @@ export const generateotp = async (req, res) => {
     }
 
     try {
-        const code="W"+generateUnique();
+        const code="M"+generateUnique();
         while(1)
         {
             
